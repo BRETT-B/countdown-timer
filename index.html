@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown Timers</title>
+	<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+	<h1>Click Image To Reveal Coundown Timer</h1>
+	<div id="grad">	
+		<h2>Countdown to Graduation</h2>
+		<div class="weeks">
+			<span class="weeks-number"></span>
+			<div class="small-text">Weeks</div>
+		</div>
+		<div class="days">
+			<span class="days-number"></span>
+			<div class="small-text">Days</div>
+		</div>
+		<div class="hours">
+			<span class="hours-number"></span>
+			<div class="small-text">Hours</div>
+		</div>
+		<div class="minutes">
+			<span class="minutes-number"></span>
+			<div class="small-text">Minutes</div>
+		</div>
+		<div class="seconds">
+			<span class="seconds-number"></span>
+			<div class="small-text">Seconds</div>
+		</div>		
+	</div>
+	<div id="rio">
+		<h2>Countdown to Rio</h2>
+		<div class="weeks">
+			<span class="weeks-number"></span>
+			<div class="small-text">Weeks</div>
+		</div>
+		<div class="days">
+			<span class="days-number"></span>
+			<div class="small-text">Days</div>
+		</div>
+		<div class="hours">
+			<span class="hours-number"></span>
+			<div class="small-text">Hours</div>
+		</div>
+		<div class="minutes">
+			<span class="minutes-number"></span>
+			<div class="small-text">Minutes</div>
+		</div>
+		<div class="seconds">
+			<span class="seconds-number"></span>
+			<div class="small-text">Seconds</div>
+		</div>
+	</div>
+	<div id="election">
+		<h2>Countdown to Election Day</h2>
+		<div class="weeks">
+			<span class="weeks-number"></span>
+			<div class="small-text">Weeks</div>
+		</div>
+		<div class="days">
+			<span class="days-number"></span>
+			<div class="small-text">Days</div>
+		</div>
+		<div class="hours">
+			<span class="hours-number"></span>
+			<div class="small-text">Hours</div>
+		</div>
+		<div class="minutes">
+			<span class="minutes-number"></span>
+			<div class="small-text">Minutes</div>
+		</div>
+		<div class="seconds">
+			<span class="seconds-number"></span>
+			<div class="small-text">Seconds</div>
+		</div>
+	</div>
+	<div id="imgContainer">
+		<a class="grad">
+			<img id="gradImg" src="gradpic.png" onclick="document.getElementById('grad').style.display='inline-block'">
+		</a>
+		<a class="rio">
+			<img id="rioImg" src="riologo.png" onclick="document.getElementById('rio').style.display='inline-block'">
+		</a>
+		<a class="election">
+			<img id="electionImg" src="electionDay.png" onclick="document.getElementById('election').style.display='inline-block'; textalign = center">
+		</a>
+	</div>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

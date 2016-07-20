@@ -1,0 +1,94 @@
+h1 {
+	display: block;
+	width: 994px;
+	text-align: center;
+	color: #428ac4;
+	padding-right: 60px;
+	font-family: 'Courgette', cursive;
+	border-bottom: 3px solid #428ac4;
+	margin: auto;
+}
+h2 {
+	margin: 60px 0px 30px;
+	color: black;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif	
+;
+}
+span {
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #4EAC2E;
+	display: inline-block;
+	font-size: 28px;
+}
+img {
+	max-width: 100%;
+}
+#grad{
+	display: none;
+	text-align: center;
+	color: #2063AD;
+}
+#grad > div {
+	padding: 10px;
+	border-radius: 3px;
+	border-color: purple;
+	background-color: #F7BE07;
+	display: inline-block;
+	text-align: center;
+}
+#rio{
+	display: none;
+	text-align: center;
+	color: #2063AD;
+}
+#rio > div {
+	padding: 10px;
+	border-radius: 3px;
+	border-color: purple;
+	background-color: #F7BE07;
+	display: inline-block;
+	text-align: center;
+}
+#election{
+	display: none;
+	text-align: center;
+	color: #2063AD;
+}
+#election > div {
+	padding: 10px;
+	border-radius: 3px;
+	border-color: purple;
+	background-color: #F7BE07;
+	display: inline-block;
+	text-align: center;
+}
+#imgContainer{
+	display: block;
+	width: 1024px;
+	height: 350px;
+	margin-top: 75px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	border-bottom: 3px solid #428ac4;
+}
+#imgContainer a{
+	padding: 15px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.grad{
+	width: 280px;
+}
+.rio{
+	width: 280px;
+}
+.election{
+	width: 260px;
+}
+a:hover {
+	cursor: pointer;
+	background-color: #e5e7e8;
+}
